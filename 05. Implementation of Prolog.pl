@@ -1,4 +1,3 @@
-
 % Minimum function
 minimum(X, Y, Min) :- X =< Y, Min is X.
 minimum(X, Y, Min) :- X > Y, Min is Y.
